@@ -21,8 +21,8 @@ def long_planeteer_calls(planeteer_calls)
   result1 = planeteer_calls.any? do |words| words.length > 4
   result1
   end
-  result2 = planeteer_calls.any? do |words| words.length <= 4
-  result2
+ # result2 = planeteer_calls.any? do |words| words.length <= 4
+  #result2
 end 
 end
 
