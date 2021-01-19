@@ -23,6 +23,7 @@ def long_planeteer_calls(planeteer_calls)
   end
   result2 = planeteer_calls.all? do |words| words.length <= 4
   result2
+end 
 end
 
 def find_valid_calls(planeteer_calls)
